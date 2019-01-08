@@ -44,7 +44,11 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-
+                <dependency>
+		      <groupId>com.graphql-java</groupId>
+		      <artifactId>graphql-java</artifactId>
+		      <version>2019-01-04T03-07-40-a61f4ee</version>
+               </dependency>
 		<dependency>
 			<groupId>com.graphql-java</groupId>
 			<artifactId>graphql-spring-boot-starter</artifactId>
@@ -61,6 +65,8 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		
 	</dependencies>
 
 	<build>
